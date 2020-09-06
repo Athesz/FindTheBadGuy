@@ -1,0 +1,93 @@
+#tabla {
+    background-color: #1c1b18;
+    border-radius: 5px;
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body {
+    width: 100%;
+}
+
+#frame {
+    margin: auto;
+    width: 700px;
+    padding: 10px;
+}
+
+.szereplo {
+    background: url('pic/guest.jpg');
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+}
+
+.tolvaj {
+    background: url('pic/thief.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+}
+
+.rejtett {
+    display: none;
+}
+
+.lathato {
+    display: block;
+}
+
+.container-header {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 95px;
+}
+
+.score p {
+    display: inline-block;
+    color: #505739;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color: #eae0c2;
+    border-radius: 15px;
+    border: 2px solid #333029;
+    display: inline-block;
+    cursor: pointer;
+    color: #505739;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color: #ccc2a6;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
