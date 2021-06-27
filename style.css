@@ -1,0 +1,80 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1c121d;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    text-shadow: 2px 2px #ff9f38;
+    color: #2da7e6;
+}
+
+input {
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    background: none;
+    height: fit-content;
+    font-size: 20px;
+    text-shadow: 2px 2px #ff9f38;
+    color: #2da7e6;
+}
+.container{
+    width: 680px;
+}
+
+hr{
+    border: 1px solid #2da7e6;
+    box-shadow: 2px 2px #ff9f38;
+    margin-top: 20px;
+}
+
+.topMenu{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+.topMenu p {
+    display: inline-flex;
+    padding-right: 12px;
+    
+}
+
+#tabla{
+    margin: auto;
+    border: 1px solid #2da7e6;
+    background-color:#1b1d29;
+    height: 340px;
+    width: 680px;
+}
+
+.szereplo {
+    background: url('img/Guest.jpg');
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 12px;
+    float: left;
+    border: solid 2px #ffa039;
+}
+.tolvaj{
+    background: url('img/Thief.jpg');    
+}
+
+li {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+ }
+
+.rejtett{
+    display: none;
+}
+.lathato{
+    display: block;
+}

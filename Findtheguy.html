@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Find The Thief!</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>FIND THE BAD GUY!</h1>
+        <hr>
+        <div class="topMenu">
+            <p>CHOOSE MODE:</p>
+            <input type="button" value="EASY" onclick="easyMODE()"; />
+            <input type="button" value="HARD" onclick="hardMODE()"; />
+        </div>
+        <hr>
+        <div class="topMenu">
+                <p>SCORE:</p>
+                <p id="pontszam"></p>
+                <p>TIMER:</p>
+                <p id="idozito"></p>
+        </div>
+
+        <div id="tabla">
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+            <div class="szereplo"></div>
+        </div>
+        <hr>
+        <div class="highScore">
+            <h1>HIGHSCORE LIST!!!</h1>
+            <ul id="scoreList">              
+            </ul>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
